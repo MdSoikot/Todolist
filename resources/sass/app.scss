@@ -1,0 +1,37 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+    .table {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #000;
+        border-collapse: collapse;
+        tr {
+            padding: 20px;
+            border: 1px solid #000;
+
+            th {
+                padding: 20px;
+                border: 1px solid rgb(209, 209, 209);
+
+                background-color: #0a49ffa3;
+                color: #fff;
+            }
+        }
+        td {
+            padding: 20px;
+            border: 1px solid #000;
+            background-color: #deeffb;
+
+        }
+    }
+}

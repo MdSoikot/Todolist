@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.container .table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.container .table tr {
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.container .table tr th {
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  background-color: #0a49ffa3;
+  color: #fff;
+}
+
+.container .table td {
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: #deeffb;
+}
+/*# sourceMappingURL=app.css.map */
