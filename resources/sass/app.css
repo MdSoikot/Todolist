@@ -10,28 +10,51 @@
   margin-top: 20px;
 }
 
+.container table {
+  border-radius: 20px;
+}
+
 .container .table {
   width: 100%;
   text-align: center;
   border: 1px solid #000;
   border-collapse: collapse;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .container .table tr {
   padding: 20px;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
 }
 
 .container .table tr th {
   padding: 20px;
   border: 1px solid #d1d1d1;
-  background-color: #0a49ffa3;
+  background-color: #2565AE;
   color: #fff;
 }
 
 .container .table td {
   padding: 20px;
-  border: 1px solid #000;
-  background-color: #deeffb;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.container .table .delete {
+  text-decoration: none;
+  background-color: #f51010;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.container .table .edit {
+  text-decoration: none;
+  background-color: #2565AE;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
 }
 /*# sourceMappingURL=app.css.map */

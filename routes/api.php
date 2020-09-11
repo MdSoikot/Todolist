@@ -18,8 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/todos', 'APIController@index');
+// Route::get('/todos', 'APIController@index');
 Route::Post('/formSubmit','RegisterController@store');
+Route::Post('/login','RegisterController@login');
+
 Route::get("fetch",'RegisterController@index');
 
 Route::get('/test',function(){

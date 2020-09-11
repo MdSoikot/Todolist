@@ -13,7 +13,6 @@ class RegisterController extends Controller
     {
         $allData=Register::all();
         return view('index',compact('allData'));
-        dd($allData);
     }
 
     public function store(Request $request)
@@ -23,4 +22,22 @@ class RegisterController extends Controller
         // return response()->json([$request->all()]);
 
     }
+
+    public function login(Request $request)
+    {
+        $input=$request->all();
+    //    $isuser= Register::findOne()->where('email',email)
+    //    $matchPassword= verfiy($isuser->pass,$request->pass)
+          var_dump($request);
+
+    }
+
+    
+    public function delete($id)
+    {
+   $delete=Register::find($id);
+   $delete->delete();
+   return back();
+    }
+
 }
