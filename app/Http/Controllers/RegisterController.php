@@ -31,9 +31,7 @@ class RegisterController extends Controller
   Register::create([
     'name'=>$request->name,
     'email'=>$request->email,
-    'password'=>Hash::make($request->password),
-
-    
+    'password'=>Hash::make($request->password),   
 ]);
 }
 
@@ -61,9 +59,9 @@ class RegisterController extends Controller
     
     public function delete($id)
     {
-   $delete=Register::find($id);
-   $delete->delete();
-   return back();
+       $delete=Register::find($id);
+       $delete->delete();
+       return back();
     }
 
 }
